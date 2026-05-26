@@ -1,4 +1,4 @@
-/* ===== RESET ===== */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,13 +12,13 @@ html, body {
   overflow-x: hidden;
 }
 
-/* ===== BODY ===== */
+
 body {
   background: radial-gradient(circle at top, #0b1220, #050814);
   color: #e6f1ff;
 }
 
-/* ===== HEADER ===== */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -51,7 +51,7 @@ nav a:hover {
   text-shadow: 0 0 10px #4da3ff;
 }
 
-/* ===== HERO ===== */
+
 .hero {
   display: flex;
   justify-content: space-between;
@@ -82,7 +82,7 @@ nav a:hover {
   line-height: 1.6;
 }
 
-/* ===== BUTTONS ===== */
+
 .btn {
   background: linear-gradient(135deg, #4da3ff, #2563eb);
   padding: 10px 20px;
@@ -113,7 +113,7 @@ nav a:hover {
   box-shadow: 0 0 15px #4da3ff;
 }
 
-/* ===== HERO IMAGE ===== */
+
 .hero-img img {
   width: 400px;
   border-radius: 70%;
@@ -121,7 +121,7 @@ nav a:hover {
   border: 3px solid rgba(77, 163, 255, 0.3);
 }
 
-/* ===== SECTIONS ===== */
+
 .section {
   padding: 90px 80px;
   text-align: center;
@@ -134,7 +134,7 @@ nav a:hover {
   margin-bottom: 30px;
 }
 
-/* ===== ABOUT BOX ===== */
+
 .about .box {
   max-width: 750px;
   margin: auto;
@@ -146,7 +146,7 @@ nav a:hover {
   box-shadow: 0 0 25px rgba(77, 163, 255, 0.1);
 }
 
-/* ===== GRID ===== */
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -154,7 +154,7 @@ nav a:hover {
   margin-top: 30px;
 }
 
-/* ===== CARD ===== */
+
 .card {
   background: rgba(17, 26, 46, 0.6);
   backdrop-filter: blur(10px);
@@ -171,7 +171,7 @@ nav a:hover {
   border: 1px solid #4da3ff;
 }
 
-/* ===== PROJECT LINK ===== */
+
 .project-link {
   display: inline-block;
   margin-top: 10px;
@@ -190,7 +190,6 @@ nav a:hover {
   box-shadow: 0 0 20px #4da3ff;
 }
 
-/* ===== CONTACT FORM ===== */
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -227,7 +226,6 @@ nav a:hover {
   transform: scale(1.03);
 }
 
-/* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
 
   header {
